@@ -1,0 +1,50 @@
+.education-card div {
+    background-color: rgb(28, 28, 28);
+    padding: 12px;
+    width: max-content;
+    margin-top: 65px;
+    position: relative;
+}
+
+.education-card .degree {
+    font-size: 5em;
+    font-weight: 700;
+    background: linear-gradient(rgb(96, 96, 96), rgb(18, 18, 18));
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.education-card .state {
+    width: 60px;
+    opacity: 0.3;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
+
+.education-card .logo {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 7px;
+    margin-top: -50px;
+}
+
+.education-card .date {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#cvut .logo {
+    background-color: #0072BB;
+}
+
+#ksu .logo {
+    background-color: #512888;
+}

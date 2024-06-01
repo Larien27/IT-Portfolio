@@ -1,4 +1,5 @@
 import './About.css';
+import EducationCard from './pieces/EducationCard';
 
 const About = () => {
     return (
@@ -8,28 +9,30 @@ const About = () => {
             <div id="education">
                 <h2>Education</h2>
                 <ul>
-                    <li>
-                        <div id="cvut">
-                            <img className="logo" src="/images/logos/cvut.png" alt="CTU logo" /><br />
-                            <span className="degree">Bc.</span>
-                            <img className="state" src="/images/states/cr.png" alt="Czech Republic map" /><br />
-                            <span className="date">September 2021 – Now</span>
-                            <h3>Software Engineering and Technology</h3>
-                            <p>Specialization: Technology for Multimedia and Virtual Reality<br />
-                            Faculty of Electrical Engineering, Czech Technical University</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="ksu">
-                            <img className="logo" src="/images/logos/ksu.png" alt="KSU logo" /><br />
-                            <span className="degree">Bc.</span>
-                            <img className="state" src="/images/states/usa.png" alt="US map" /><br />
-                            <span className="date">January 2024 – May 2024</span>
-                            <h3>Computer Science</h3>
-                            <p>Study Exchange Program<br />
-                            College of Arts and Sciences, Kansas State University</p>
-                        </div>
-                    </li>
+                    <EducationCard
+                        id="cvut"
+                        logoFileName="cvut.png"
+                        logoAltText="CTU logo"
+                        degree="Bc."
+                        stateFileName="cr.png"
+                        stateAltText="Czech Republic map"
+                        date="September 2021 – Now"
+                        fieldName="Software Engineering and Technology"
+                        specialization="Specialization: Technology for Multimedia and Virtual Reality"
+                        school="Faculty of Electrical Engineering, Czech Technical University"
+                    />
+                    <EducationCard
+                        id="ksu"
+                        logoFileName="ksu.png"
+                        logoAltText="KSU logo"
+                        degree="Bc."
+                        stateFileName="usa.png"
+                        stateAltText="US map"
+                        date="January 2024 – May 2024"
+                        fieldName="Computer Science"
+                        specialization="Study Exchange Program"
+                        school="College of Arts and Sciences, Kansas State University"
+                    />
                 </ul>
             </div>
             <div id="work experience"></div>
