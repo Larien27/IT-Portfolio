@@ -12,20 +12,22 @@ const About = () => {
                         <div id="cvut">
                             <img className="logo" src="/images/logos/cvut.png" alt="CTU logo" /><br />
                             <span className="degree">Bc.</span>
-                            <img className="state" src="/images/states/cr.png" /><br />
+                            <img className="state" src="/images/states/cr.png" alt="Czech Republic map" /><br />
                             <span className="date">September 2021 – Now</span>
                             <h3>Software Engineering and Technology</h3>
-                            <p>Bachelor's Degree, Specialization: Technology for Multimedia and Virtual Reality<br />
-                            Faculty of Electrical Engineering, Czech Technical University, Czech Republic</p>
+                            <p>Specialization: Technology for Multimedia and Virtual Reality<br />
+                            Faculty of Electrical Engineering, Czech Technical University</p>
                         </div>
                     </li>
                     <li>
                         <div id="ksu">
                             <img className="logo" src="/images/logos/ksu.png" alt="KSU logo" /><br />
+                            <span className="degree">Bc.</span>
+                            <img className="state" src="/images/states/usa.png" alt="US map" /><br />
                             <span className="date">January 2024 – May 2024</span>
                             <h3>Computer Science</h3>
                             <p>Study Exchange Program<br />
-                            Kansas State University, USA</p>
+                            College of Arts and Sciences, Kansas State University</p>
                         </div>
                     </li>
                 </ul>
