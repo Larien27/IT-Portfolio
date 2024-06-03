@@ -1,0 +1,26 @@
+[
+    {
+        "schoolColor": "#0072BB",
+        "logoFileName": "cvut.png",
+        "logoAltText": "CTU logo",
+        "degree": "Bc.",
+        "stateFileName": "cr.png",
+        "stateAltText": "Czech Republic map",
+        "date": "September 2021 – Now",
+        "fieldName": "Software Engineering and Technology",
+        "specialization": "Specialization: Technology for Multimedia and Virtual Reality",
+        "school": "Faculty of Electrical Engineering, Czech Technical University"
+    },
+    {
+        "schoolColor": "#512888",
+        "logoFileName": "ksu.png",
+        "logoAltText": "KSU logo",
+        "degree": "Bc.",
+        "stateFileName": "usa.png",
+        "stateAltText": "US map",
+        "date": "January 2024 – May 2024",
+        "fieldName": "Computer Science",
+        "specialization": "Study Exchange Program",
+        "school": "College of Arts and Sciences, Kansas State University"
+    }
+]

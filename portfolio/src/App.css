@@ -1,5 +1,6 @@
 * {
     margin-top: 0;
+    font-family: "Reddit Mono", monospace;
 }
 
 .section {
@@ -9,12 +10,19 @@
     text-align: center;
 }
 
-.section h1 {
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+h1 {
+    padding-top: 50px;
     font-size: 3em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
+h2 {
+    padding-top: 30px;
+    font-size: 2em;
+    text-transform: lowercase;
 }
 
 ul {

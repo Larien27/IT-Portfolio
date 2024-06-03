@@ -1,5 +1,6 @@
 import './About.css';
 import EducationCard from './pieces/EducationCard';
+import educationCardData from '../data/educationCardsData.json';
 
 const About = () => {
     return (
@@ -7,32 +8,22 @@ const About = () => {
             <h1>About Me</h1>
             <p>I am a Czech IT student with passion for web development.</p>
             <div id="education">
-                <h2>Education</h2>
+                <h2>&lt;Education&gt;</h2>
                 <ul>
-                    <EducationCard
-                        id="cvut"
-                        logoFileName="cvut.png"
-                        logoAltText="CTU logo"
-                        degree="Bc."
-                        stateFileName="cr.png"
-                        stateAltText="Czech Republic map"
-                        date="September 2021 – Now"
-                        fieldName="Software Engineering and Technology"
-                        specialization="Specialization: Technology for Multimedia and Virtual Reality"
-                        school="Faculty of Electrical Engineering, Czech Technical University"
-                    />
-                    <EducationCard
-                        id="ksu"
-                        logoFileName="ksu.png"
-                        logoAltText="KSU logo"
-                        degree="Bc."
-                        stateFileName="usa.png"
-                        stateAltText="US map"
-                        date="January 2024 – May 2024"
-                        fieldName="Computer Science"
-                        specialization="Study Exchange Program"
-                        school="College of Arts and Sciences, Kansas State University"
-                    />
+                    {educationCardData.map((card) => (
+                        <EducationCard
+                            schoolColor={card.schoolColor}
+                            logoFileName={card.logoFileName}
+                            logoAltText={card.logoAltText}
+                            degree={card.degree}
+                            stateFileName={card.stateFileName}
+                            stateAltText={card.stateAltText}
+                            date={card.date}
+                            fieldName={card.fieldName}
+                            specialization={card.specialization}
+                            school={card.school}
+                        />
+                    ))}
                 </ul>
             </div>
             <div id="work experience"></div>

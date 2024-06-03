@@ -1,7 +1,8 @@
 .education-card div {
     background-color: rgb(28, 28, 28);
     padding: 12px;
-    width: max-content;
+    box-sizing: border-box;
+    width: 100%;
     margin-top: 65px;
     position: relative;
 }
@@ -9,7 +10,7 @@
 .education-card .degree {
     font-size: 5em;
     font-weight: 700;
-    background: linear-gradient(rgb(96, 96, 96), rgb(18, 18, 18));
+    background: linear-gradient(rgb(96, 96, 96), rgb(10, 10, 10));
     background-clip: text;
     color: transparent;
     position: absolute;
@@ -39,12 +40,4 @@
     font-weight: 400;
     text-transform: uppercase;
     font-size: small;
-}
-
-#cvut .logo {
-    background-color: #0072BB;
-}
-
-#ksu .logo {
-    background-color: #512888;
 }
