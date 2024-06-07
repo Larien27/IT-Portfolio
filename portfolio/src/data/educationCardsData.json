@@ -9,7 +9,8 @@
         "date": "September 2021 – Now",
         "fieldName": "Software Engineering and Technology",
         "specialization": "Specialization: Technology for Multimedia and Virtual Reality",
-        "school": "Faculty of Electrical Engineering, Czech Technical University"
+        "school": "Faculty of Electrical Engineering, Czech Technical University",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor lobortis nisi, at iaculis eros consequat et. Quisque rutrum, dolor nec pulvinar egestas, diam leo eleifend dolor, sed eleifend libero lacus quis erat. Sed at mauris imperdiet, iaculis nisl a, ullamcorper odio. Sed vitae nisi ut diam condimentum cursus. Nunc ac ligula ipsum. Integer sit amet vulputate ex, vel molestie nibh. Vestibulum vestibulum malesuada magna, vitae semper magna facilisis id. Aliquam dictum ex vitae velit fringilla posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "schoolColor": "#512888",
@@ -21,6 +22,7 @@
         "date": "January 2024 – May 2024",
         "fieldName": "Computer Science",
         "specialization": "Study Exchange Program",
-        "school": "College of Arts and Sciences, Kansas State University"
+        "school": "College of Arts and Sciences, Kansas State University",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo leo non maximus varius. Maecenas accumsan vitae ipsum dapibus aliquam. In volutpat nisi volutpat, sollicitudin nunc nec, volutpat enim. Nulla facilisi. Integer eu nunc scelerisque, pretium nibh non, tempus nisi. Aliquam iaculis, dui non gravida commodo, massa sem congue sapien, in convallis mi dolor et libero. Etiam commodo ipsum in nisi dictum, id tempus libero porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris vitae lacinia diam, in varius enim. Vestibulum accumsan sollicitudin nisl, at porta elit ornare non. Sed ornare malesuada est ut congue. Suspendisse sit amet metus condimentum, dapibus quam ut, viverra risus."
     }
 ]

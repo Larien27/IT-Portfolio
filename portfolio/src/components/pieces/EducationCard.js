@@ -1,6 +1,6 @@
 import './EducationCard.css';
 
-const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFileName, stateAltText, date, fieldName, specialization, school }) => {
+const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFileName, stateAltText, date, fieldName, specialization, school, description }) => {
     return (
         <li className="education-card">
             <div>
@@ -9,8 +9,11 @@ const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFi
                 <img className="state" src={`/images/states/${stateFileName}`} alt={stateAltText} /><br />
                 <span className="date">{date}</span>
                 <h3>{fieldName}</h3>
-                <p>{specialization}</p>
-                <p>{school}</p>
+                <p className="school">{school}</p>
+                <hr />
+                <p className="specialization">{specialization}</p>
+                
+                <p className="description">{description}</p>
             </div>
         </li>
     );

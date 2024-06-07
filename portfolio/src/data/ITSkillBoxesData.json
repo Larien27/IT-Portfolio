@@ -1,0 +1,58 @@
+[
+    {
+        "technology": "ReactJS",
+        "logoFileName": "reactjs.png"
+    },
+    {
+        "technology": "JavaScript",
+        "logoFileName": "js.png"
+    },
+    {
+        "technology": "HTML",
+        "logoFileName": "html.png"
+    },
+    {
+        "technology": "CSS",
+        "logoFileName": "css.png"
+    },
+    {
+        "technology": "SASS",
+        "logoFileName": ""
+    },
+    {
+        "technology": "TailWindCSS",
+        "logoFileName": ""
+    },
+    {
+        "technology": "Bootstrap",
+        "logoFileName": ""
+    },
+    {
+        "technology": "PHP",
+        "logoFileName": ""
+    },
+    {
+        "technology": "Node.js",
+        "logoFileName": ""
+    },
+    {
+        "technology": "MySQL",
+        "logoFileName": ""
+    },
+    {
+        "technology": "PostgreSQL",
+        "logoFileName": ""
+    },
+    {
+        "technology": "WordPress",
+        "logoFileName": ""
+    },
+    {
+        "technology": "Shoptet",
+        "logoFileName": ""
+    },
+    {
+        "technology": "Git",
+        "logoFileName": ""
+    }
+]

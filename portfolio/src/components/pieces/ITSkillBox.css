@@ -1,0 +1,14 @@
+.it-skill-box div {
+    border: 1px solid white;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    align-items: center;
+}
+
+.it-skill-box .logo {
+    height: 100px;
+    margin: 0 auto;
+}
