@@ -17,42 +17,54 @@
     },
     {
         "technology": "SASS",
-        "logoFileName": ""
+        "logoFileName": "sass.png"
     },
     {
         "technology": "TailWindCSS",
-        "logoFileName": ""
+        "logoFileName": "tailwindcss.png"
     },
     {
         "technology": "Bootstrap",
-        "logoFileName": ""
+        "logoFileName": "bootstrap.png"
     },
     {
         "technology": "PHP",
-        "logoFileName": ""
+        "logoFileName": "php.png"
     },
     {
         "technology": "Node.js",
-        "logoFileName": ""
+        "logoFileName": "nodejs.png"
     },
     {
         "technology": "MySQL",
-        "logoFileName": ""
+        "logoFileName": "mysql.png"
     },
     {
         "technology": "PostgreSQL",
-        "logoFileName": ""
+        "logoFileName": "postgresql.png"
     },
     {
         "technology": "WordPress",
-        "logoFileName": ""
+        "logoFileName": "wordpress.png"
     },
     {
         "technology": "Shoptet",
-        "logoFileName": ""
+        "logoFileName": "shoptet.png"
     },
     {
         "technology": "Git",
-        "logoFileName": ""
+        "logoFileName": "git.png"
+    },
+    {
+        "technology": "Python",
+        "logoFileName": "python.png"
+    },
+    {
+        "technology": "Java",
+        "logoFileName": "java.png"
+    },
+    {
+        "technology": "C#",
+        "logoFileName": "csharp.png"
     }
 ]
