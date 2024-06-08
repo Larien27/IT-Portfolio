@@ -55,6 +55,7 @@ const About = () => {
                             flagAltText={language.flagAltText}
                             level={language.level}
                             levelText={language.levelText}
+                            levelValue={language.levelValue}
                         />
                     ))}
                 </ul>

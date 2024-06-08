@@ -20,10 +20,11 @@
 
 .education-card .state {
     width: 60px;
-    opacity: 0.3;
+    opacity: 0.2;
     position: absolute;
     top: 15px;
     right: 12px;
+
 }
 
 .education-card .logo {
