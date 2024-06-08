@@ -12,13 +12,13 @@
     column-gap: 30px;
 }
 
-@media screen and (max-width: 899px) {
+@media (max-width: 899px) {
     #education ul {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     #education ul {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -35,32 +35,37 @@
     row-gap: 30px;
 }
 
-@media screen and (max-width: 579px) {
+@media (max-width: 579px) {
     #it-skills ul {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 580px) {
+@media (min-width: 580px) {
     #it-skills ul {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 830px) {
+@media (min-width: 830px) {
     #it-skills ul {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media screen and (min-width: 1050px) {
+@media (min-width: 1050px) {
     #it-skills ul {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-@media screen and (min-width: 1300px) {
+@media (min-width: 1300px) {
     #it-skills ul {
         grid-template-columns: repeat(5, 1fr);
     }
+}
+
+#languages ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
