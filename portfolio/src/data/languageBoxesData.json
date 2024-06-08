@@ -4,23 +4,20 @@
         "flagFileName": "cr.png",
         "flagAltText": "Czech flag",
         "level": "C2",
-        "levelText": "Native",
-        "levelValue": 6
+        "levelText": "Native"
     },
     {
         "language": "English",
         "flagFileName": "gb.png",
         "flagAltText": "British flag",
         "level": "C1",
-        "levelText": "Advanced",
-        "levelValue": 5
+        "levelText": "Advanced"
     },
     {
         "language": "French",
         "flagFileName": "fr.png",
         "flagAltText": "French flag",
         "level": "A2",
-        "levelText": "Pre-Intermediate",
-        "levelValue": 2
+        "levelText": "Pre-Intermediate"
     }
 ]
