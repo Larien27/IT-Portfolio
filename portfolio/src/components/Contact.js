@@ -1,3 +1,5 @@
+import './Contact.css';
+
 const Contact = () => {
     return (
         <div id="contact" className="section">
@@ -8,9 +10,9 @@ const Contact = () => {
                 <label>Email:</label>
                 <input type="email" />
                 <label>Message:</label>
-                <textarea />
+                <textarea rows="8" />
 
-                <button type="submit">Send</button>
+                <input type="submit" value="Send" />
             </form>
         </div>
     );

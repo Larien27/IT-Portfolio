@@ -1,0 +1,28 @@
+#contact form {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#contact form input, #contact form textarea {
+    border: 1px solid white;
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 5px 8px;
+    color: white;
+}
+
+#contact form input:focus, #contact form textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+#contact form input[type=submit] {
+    height: 40px;
+}
+
+#contact form input[type=submit]:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
