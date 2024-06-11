@@ -1,0 +1,32 @@
+#main h1 {
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-style: italic;
+}
+
+#text-photo-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    text-align: left;
+}
+
+#link-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+
+#link-buttons .link-button {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#link-buttons .link-button:hover {
+    background-color: white;
+    color: black;
+}
