@@ -1,0 +1,14 @@
+[
+    {
+        "projectName": "IT Portfolio",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate accumsan sodales.",
+        "technologies": "HTML, CSS, React",
+        "repoLink": "#"
+    },
+    {
+        "projectName": "Knižní databáze",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "technologies": "HTML, CSS, SCSS, PHP, MySQL, JavaScript",
+        "repoLink": "https://gitfront.io/r/Larien27/edA6k29ceV4g/Book-Database/"
+    }
+]
