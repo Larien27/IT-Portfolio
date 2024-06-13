@@ -1,10 +1,11 @@
 import './About.css';
-import EducationCard from './pieces/EducationCard';
-import LanguageBox from './pieces/LanguageBox';
-import ITSkillBox from './pieces/ITSkillBox';
-import educationCardData from '../data/educationCardsData.json';
-import languageBoxData from '../data/languageBoxesData.json';
-import ITSkillBoxData from '../data/ITSkillBoxesData.json';
+import EducationCard from './parts/EducationCard';
+import LanguageBox from './parts/LanguageBox';
+import ITSkillBox from './parts/ITSkillBox';
+import educationCardData from '../../data/educationCardsData.json';
+import languageBoxData from '../../data/languageBoxesData.json';
+import ITSkillBoxData from '../../data/ITSkillBoxesData.json';
+import WorkBox from './parts/WorkBox';
 
 const About = () => {
     return (
@@ -44,6 +45,15 @@ const About = () => {
             </div>
             <div id="work-experience">
                 <h2>&lt; Work Experience &gt;</h2>
+                <ul>
+                    <WorkBox
+                        logoFileName="brand-elevator.png"
+                        date="July 2022 – June 2024"
+                        position="Web Development Specialist"
+                        company="BrandElevator"
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt cursus luctus. Sed dignissim mollis quam, vitae egestas massa dignissim sed. Praesent nisi neque, egestas ut dignissim ac, laoreet vel purus. Praesent bibendum ex at dictum eleifend. Mauris sagittis finibus mauris, eu tincidunt risus lacinia nec. Nam at laoreet ante, nec consectetur libero. Cras vitae dictum nisi, non congue erat."
+                    />
+                </ul>
             </div>
             <div id="languages">
                 <h2>&lt; Languages &gt;</h2>

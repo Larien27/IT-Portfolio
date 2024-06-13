@@ -1,0 +1,16 @@
+.work-box .image-mask {
+    mask-image: url(../../../../public/images/brush-mask.png);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+.work-box .image-mask .work-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.work-box .date {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: small;
+}
