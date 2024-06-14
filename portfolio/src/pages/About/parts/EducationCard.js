@@ -17,6 +17,6 @@ const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFi
             </div>
         </li>
     );
-}
+};
 
 export default EducationCard;

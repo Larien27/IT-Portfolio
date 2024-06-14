@@ -14,6 +14,6 @@ const WorkBox = ({ logoFileName, date, position, company, description }) => {
             </div>
         </li>
     );
-}
+};
 
 export default WorkBox;

@@ -6,7 +6,7 @@ const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, onC
             <div>
                 <h3>{projectName}</h3>
                 <p>{shortDescription}</p>
-                <span>{technologies}</span>
+                <span className="technologies">{technologies}</span>
             </div>
             <a href={repoLink} target="_blank" rel="noreferrer">
                 <img src="/images/github.png" alt="GitHub icon" />

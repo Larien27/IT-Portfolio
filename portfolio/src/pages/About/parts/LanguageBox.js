@@ -51,6 +51,6 @@ const LanguageBox = ({ language, flagFileName, flagAltText, level }) => {
             </div>
         </li>
     );
-}
+};
 
 export default LanguageBox;

@@ -23,6 +23,10 @@
     margin-bottom: 10px;
 }
 
+.project-box .technologies {
+    font-style: italic;
+}
+
 .project-box img {
     width: 45px;
 }

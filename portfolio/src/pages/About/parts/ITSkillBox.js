@@ -9,6 +9,6 @@ const ITSkillBox = ({ technology, logoFileName }) => {
             </div>
         </li>
     );
-}
+};
 
 export default ITSkillBox;

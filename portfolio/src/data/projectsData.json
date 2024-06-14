@@ -2,13 +2,19 @@
     {
         "projectName": "IT Portfolio",
         "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate accumsan sodales.",
-        "technologies": "HTML, CSS, React",
-        "repoLink": "#"
+        "technologies": "HTML, CSS, React, JSON",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2024",
+        "longDescription": ""
     },
     {
-        "projectName": "Knižní databáze",
+        "projectName": "Book Database",
         "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "technologies": "HTML, CSS, SCSS, PHP, MySQL, JavaScript",
-        "repoLink": "https://gitfront.io/r/Larien27/edA6k29ceV4g/Book-Database/"
+        "repoLink": "https://gitfront.io/r/Larien27/edA6k29ceV4g/Book-Database/",
+        "imageFileName": "book-database.png",
+        "year": "2021",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     }
 ]
