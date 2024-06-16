@@ -1,70 +1,91 @@
-[
-    {
-        "technology": "ReactJS",
-        "logoFileName": "reactjs.png"
-    },
-    {
-        "technology": "JavaScript",
-        "logoFileName": "js.png"
-    },
-    {
-        "technology": "HTML",
-        "logoFileName": "html.png"
-    },
-    {
-        "technology": "CSS",
-        "logoFileName": "css.png"
-    },
-    {
-        "technology": "SASS",
-        "logoFileName": "sass.png"
-    },
-    {
-        "technology": "TailWindCSS",
-        "logoFileName": "tailwindcss.png"
-    },
-    {
-        "technology": "Bootstrap",
-        "logoFileName": "bootstrap.png"
-    },
-    {
-        "technology": "PHP",
-        "logoFileName": "php.png"
-    },
-    {
-        "technology": "Node.js",
-        "logoFileName": "nodejs.png"
-    },
-    {
-        "technology": "MySQL",
-        "logoFileName": "mysql.png"
-    },
-    {
-        "technology": "PostgreSQL",
-        "logoFileName": "postgresql.png"
-    },
-    {
-        "technology": "WordPress",
-        "logoFileName": "wordpress.png"
-    },
-    {
-        "technology": "Shoptet",
-        "logoFileName": "shoptet.png"
-    },
-    {
-        "technology": "Git",
-        "logoFileName": "git.png"
-    },
-    {
-        "technology": "Python",
-        "logoFileName": "python.png"
-    },
-    {
-        "technology": "Java",
-        "logoFileName": "java.png"
-    },
-    {
-        "technology": "C#",
-        "logoFileName": "csharp.png"
-    }
-]
+{
+    "programming": [
+        {
+            "technology": "ReactJS",
+            "logoFileName": "reactjs.png"
+        },
+        {
+            "technology": "JavaScript",
+            "logoFileName": "js.png"
+        },
+        {
+            "technology": "HTML",
+            "logoFileName": "html.png"
+        },
+        {
+            "technology": "CSS",
+            "logoFileName": "css.png"
+        },
+        {
+            "technology": "SASS",
+            "logoFileName": "sass.png"
+        },
+        {
+            "technology": "Bootstrap",
+            "logoFileName": "bootstrap.png"
+        },
+        {
+            "technology": "PHP",
+            "logoFileName": "php.png"
+        },
+        {
+            "technology": "Node.js",
+            "logoFileName": "nodejs.png"
+        },
+
+        {
+            "technology": "PostgreSQL",
+            "logoFileName": "postgresql.png"
+        },
+        {
+            "technology": "WordPress",
+            "logoFileName": "wordpress.png"
+        },
+        {
+            "technology": "Shoptet",
+            "logoFileName": "shoptet.png"
+        },
+        {
+            "technology": "Unreal Engine",
+            "logoFileName": "unrealengine.png"
+        },
+        {
+            "technology": "Git",
+            "logoFileName": "git.png"
+        },
+        {
+            "technology": "Python",
+            "logoFileName": "python.png"
+        },
+        {
+            "technology": "Java",
+            "logoFileName": "java.png"
+        },
+        {
+            "technology": "C#",
+            "logoFileName": "csharp.png"
+        },
+        {
+            "technology": "TailWindCSS",
+            "logoFileName": "tailwindcss.png"
+        }
+    ],
+    "other": [
+        {
+            "technology": "Premiere Pro",
+            "logoFileName": "premierepro.png"
+        },
+        {
+            "technology": "After Effects",
+            "logoFileName": "aftereffects.png"
+        },
+        {
+            "technology": "Maya",
+            "logoFileName": "maya.png"
+        },
+        {
+            "technology": "Blender",
+            "logoFileName": "blender.png"
+        }
+    ]
+}

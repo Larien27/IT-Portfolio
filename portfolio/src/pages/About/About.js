@@ -4,7 +4,7 @@ import LanguageBox from './parts/LanguageBox';
 import ITSkillBox from './parts/ITSkillBox';
 import educationCardData from '../../data/educationCardsData.json';
 import languageBoxData from '../../data/languageBoxesData.json';
-import ITSkillBoxData from '../../data/ITSkillBoxesData.json';
+import ITSkillBoxesData from '../../data/ITSkillBoxesData.json';
 import WorkBox from './parts/WorkBox';
 import workExperienceData from '../../data/workExperienceData.json';
 
@@ -36,10 +36,20 @@ const About = () => {
             <div id="it-skills">
                 <h2>&lt; <span style={{ textTransform: "uppercase" }}>IT</span> skills &gt;</h2>
                 <ul>
-                    {ITSkillBoxData.map((skill) => (
+                    {ITSkillBoxesData.programming.map((skill) => (
                         <ITSkillBox
                             technology={skill.technology}
-                            logoFileName={skill.logoFileName}
+                            logoFileName={`technologies/${skill.logoFileName}`}
+                        />
+                    ))}
+                </ul>
+
+                <h3>&lt; non-programming skills &gt;</h3>
+                <ul>
+                    {ITSkillBoxesData.other.map((skill) => (
+                        <ITSkillBox
+                            technology={skill.technology}
+                            logoFileName={`other-skills/${skill.logoFileName}`}
                         />
                     ))}
                 </ul>
