@@ -4,15 +4,35 @@ const Contact = () => {
     return (
         <div id="contact" className="section">
             <h1>Contact Me</h1>
-            <img src="/images/email.png" alt="Email icon" />
-            <p>lucie.beke&#64;gmail.com</p>
+            <div id="contact-display">
+                <a id="email" href="mailto:lucie.beke@gmail.com">
+                    <div>
+                        <img src="/images/email.png" alt="Email icon" /><br />
+                        <span>lucie.beke&#64;gmail.com</span>
+                    </div>
+                </a>
+                <a id="linkedin" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+                    <div>
+                        <img src="/images/linkedin.png" alt="LinkedIn icon" /><br />
+                        <span>Lucie Bekeová</span>
+                    </div>
+                </a>
+                <a id="github" href="https://www.github.com" target="_blank" rel="noreferrer">
+                    <div>
+                        <img src="/images/github.png" alt="GitHub icon" /><br />
+                        <span>Larien27</span>
+                    </div>
+                </a>
+            </div>
+
+            <h2>Contact form</h2>
             <form>
                 <label>Name:</label>
                 <input type="text" />
                 <label>Email:</label>
                 <input type="email" />
                 <label>Message:</label>
-                <textarea rows="8" />
+                <textarea rows="7" />
 
                 <input type="submit" value="Send" />
             </form>

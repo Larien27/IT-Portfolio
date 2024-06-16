@@ -1,3 +1,28 @@
+#contact-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+#contact-display a {
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    text-decoration: none;
+}
+
+#email:hover {
+    background-color: #c20a0a;
+}
+
+#linkedin:hover {
+    background-color: #0a66c2;
+}
+
+#github:hover {
+    background-color: #238636;
+}
+
 #contact form {
     display: inline-flex;
     flex-direction: column;
