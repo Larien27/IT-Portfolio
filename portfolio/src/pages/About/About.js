@@ -6,6 +6,7 @@ import educationCardData from '../../data/educationCardsData.json';
 import languageBoxData from '../../data/languageBoxesData.json';
 import ITSkillBoxData from '../../data/ITSkillBoxesData.json';
 import WorkBox from './parts/WorkBox';
+import workExperienceData from '../../data/workExperienceData.json';
 
 const About = () => {
     return (
@@ -46,13 +47,15 @@ const About = () => {
             <div id="work-experience">
                 <h2>&lt; Work Experience &gt;</h2>
                 <ul>
-                    <WorkBox
-                        logoFileName="brand-elevator.png"
-                        date="July 2022 – June 2024"
-                        position="Web Development Specialist"
-                        company="BrandElevator"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt cursus luctus. Sed dignissim mollis quam, vitae egestas massa dignissim sed. Praesent nisi neque, egestas ut dignissim ac, laoreet vel purus. Praesent bibendum ex at dictum eleifend. Mauris sagittis finibus mauris, eu tincidunt risus lacinia nec. Nam at laoreet ante, nec consectetur libero. Cras vitae dictum nisi, non congue erat."
-                    />
+                    {workExperienceData.map((work) => (
+                        <WorkBox
+                            logoFileName={work.logoFileName}
+                            date={work.date}
+                            position={work.position}
+                            company={work.company}
+                            description={work.description}
+                        />
+                    ))}
                 </ul>
             </div>
             <div id="languages">

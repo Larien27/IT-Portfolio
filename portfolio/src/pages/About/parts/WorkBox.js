@@ -3,13 +3,13 @@ import './WorkBox.css';
 const WorkBox = ({ logoFileName, date, position, company, description }) => {
     return (
         <li className="work-box">
-            <div>
-                <div class="image-mask">
-                    <img className="work-logo" src={`/images/logos/${logoFileName}`} alt={`${company} logo`} />
-                </div>
-                <span className="date">{date}</span>
+            <div className="first-column">
+                <img className="work-logo" src={`/images/logos/${logoFileName}`} alt={`${company} logo`} />
+            </div>
+            <div className="second-column">
                 <h3>{position}</h3>
-                <span>{company}</span>
+                <span className="company">{company}</span>
+                <span className="date">{date}</span><br />
                 <p className="description">{description}</p>
             </div>
         </li>

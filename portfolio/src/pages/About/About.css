@@ -65,6 +65,15 @@
     }
 }
 
+#it-skills h2 {
+    margin-top: 40px;
+}
+
+#work-experience h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
 #languages ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
