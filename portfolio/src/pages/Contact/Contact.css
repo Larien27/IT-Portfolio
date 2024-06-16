@@ -4,6 +4,14 @@
     column-gap: 10px;
 }
 
+@media (max-width: 775px) {
+    #contact-display {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        align-self: center;
+    }
+}
+
 #contact-display a {
     padding: 20px;
     background-color: rgb(33, 33, 33);
@@ -26,6 +34,7 @@
 #contact form {
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 10px;
 }
 
@@ -42,8 +51,17 @@
     color: black;
 }
 
+#contact form input[type=email], #contact form input[type=text] {
+    width: 20vw;
+}
+
+#contact form textarea {
+    width: 30vw;
+}
+
 #contact form input[type=submit] {
-    height: 40px;
+    height: 50px;
+    width: 100px;
 }
 
 #contact form input[type=submit]:hover {
