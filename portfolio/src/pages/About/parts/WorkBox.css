@@ -5,6 +5,20 @@
     margin: 0 30px;
 }
 
+@media (max-width: 990px) {
+    .work-box {
+        grid-template-columns: 1fr;
+    }
+
+    .work-box .work-logo {
+        height: 30vh;
+    }
+
+    .work-box .second-column {
+        align-items: center;
+    }
+}
+
 .work-box .second-column {
     display: flex;
     justify-content: center;

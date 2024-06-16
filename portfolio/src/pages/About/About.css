@@ -38,6 +38,7 @@
 @media (max-width: 579px) {
     #it-skills ul {
         grid-template-columns: 1fr;
+        align-self: center;
     }
 }
 
@@ -81,4 +82,9 @@
 #languages ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 730px) {
+    #languages ul {
+        grid-template-columns: 1fr;
+    }
 }
