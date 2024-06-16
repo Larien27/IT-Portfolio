@@ -44,9 +44,9 @@ const LanguageBox = ({ language, flagFileName, flagAltText, level }) => {
     return (
         <li className="language-box">
             <div>
-                <img className="flag" src={`/images/flags/${flagFileName}`} alt={flagAltText} />
-                <progress value={levelValue} max="6"></progress>
+                <img className="flag" src={`/images/flags/${flagFileName}`} alt={flagAltText} /><br />
                 <h3>{language}</h3>
+                <progress value={levelValue} max="6"></progress>
                 <p>{level} ({levelText})</p>
             </div>
         </li>
