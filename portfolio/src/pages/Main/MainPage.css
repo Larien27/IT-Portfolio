@@ -2,6 +2,10 @@
     margin-bottom: 0;
 }
 
+#main .title {
+    margin-bottom: 40px;
+}
+
 #subtitle {
     font-style: italic;
 }
@@ -9,13 +13,23 @@
 #text-photo-section {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    text-align: left;
+    column-gap: 30px;
+    align-items: center;
+}
+
+#text-photo-section p {
+    text-align: justify;
+}
+
+#text-photo-section img {
+    width: 100%;
 }
 
 #link-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 25px;
+    column-gap: 25px;align-items: center;
+    margin-top: 30px;
 }
 
 #link-buttons .link-button {
