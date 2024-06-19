@@ -5,6 +5,14 @@
     margin: 0 50px;
 }
 
+@media (max-width: 1140px) {
+    #project-layout {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        align-self: center;
+    }
+}
+
 #project-layout .project-column {
     background-color: rgb(55, 55, 55);
     height: max-content;

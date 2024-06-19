@@ -8,6 +8,8 @@ const Projects = () => {
 
     const handleClick = (obj) => {
         setProjectDetail(obj);
+        const projDetailDiv = document.getElementById("project-detail");
+        if (projDetailDiv) projDetailDiv.scrollIntoView({ behavior: 'smooth' });
     }
 
     return (
