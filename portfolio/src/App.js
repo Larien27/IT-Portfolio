@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
     return (
         <div>
-            <Router>
+            <Router basename='/IT-Portfolio'>
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<MainPage />} />
