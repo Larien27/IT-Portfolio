@@ -16,8 +16,9 @@ const About = () => {
             <div id="education">
                 <h2>&lt; Education &gt;</h2>
                 <ul>
-                    {educationCardData.map((card) => (
+                    {educationCardData.map((card, index) => (
                         <EducationCard
+                            key={index}
                             schoolColor={card.schoolColor}
                             logoFileName={card.logoFileName}
                             logoAltText={card.logoAltText}
@@ -36,8 +37,9 @@ const About = () => {
             <div id="it-skills">
                 <h2>&lt; <span style={{ textTransform: "uppercase" }}>IT</span> skills &gt;</h2>
                 <ul>
-                    {ITSkillBoxesData.programming.map((skill) => (
+                    {ITSkillBoxesData.programming.map((skill, index) => (
                         <ITSkillBox
+                            key={index}
                             technology={skill.technology}
                             logoFileName={`technologies/${skill.logoFileName}`}
                         />
@@ -46,8 +48,9 @@ const About = () => {
 
                 <h3>&lt; non-programming skills &gt;</h3>
                 <ul>
-                    {ITSkillBoxesData.other.map((skill) => (
+                    {ITSkillBoxesData.other.map((skill, index) => (
                         <ITSkillBox
+                            key={index}
                             technology={skill.technology}
                             logoFileName={`other-skills/${skill.logoFileName}`}
                         />
@@ -57,8 +60,9 @@ const About = () => {
             <div id="work-experience">
                 <h2>&lt; Work Experience &gt;</h2>
                 <ul>
-                    {workExperienceData.map((work) => (
+                    {workExperienceData.map((work, index) => (
                         <WorkBox
+                            key={index}
                             logoFileName={work.logoFileName}
                             date={work.date}
                             position={work.position}
@@ -71,8 +75,9 @@ const About = () => {
             <div id="languages">
                 <h2>&lt; Languages &gt;</h2>
                 <ul>
-                    {languageBoxData.map((language) => (
+                    {languageBoxData.map((language, index) => (
                         <LanguageBox
+                            key={index}
                             language={language.language}
                             flagFileName={language.flagFileName}
                             flagAltText={language.flagAltText}

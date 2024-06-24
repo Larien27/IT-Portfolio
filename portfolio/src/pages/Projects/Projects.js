@@ -17,8 +17,9 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div id="project-layout">
                 <div id="project-list" className="project-column">
-                {projectsData.map((project) => (
+                {projectsData.map((project, index) => (
                     <ProjectBox
+                        key={index}
                         projectName={project.projectName}
                         shortDescription={project.shortDescription}
                         technologies={project.technologies}
