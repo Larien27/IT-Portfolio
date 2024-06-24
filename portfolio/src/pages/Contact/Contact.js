@@ -11,7 +11,7 @@ const Contact = () => {
                         <span>lucie.beke&#64;gmail.com</span>
                     </div>
                 </a>
-                <a id="linkedin" href="www.linkedin.com/in/lucie-bekeova" target="_blank" rel="noreferrer">
+                <a id="linkedin" href="https://www.linkedin.com/in/lucie-bekeova" target="_blank" rel="noreferrer">
                     <div>
                         <img src="/images/linkedin.png" alt="LinkedIn icon" /><br />
                         <span>Lucie Bekeová</span>
