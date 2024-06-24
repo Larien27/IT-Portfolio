@@ -8,7 +8,7 @@ const MainPage = () => {
                     <h1>Lucie Bekeová</h1>
                     <span id="subtitle">Junior web developer</span>
                 </div>
-                <img src="/images/logos-map.png" alt="placeholder img" />
+                <img src="/public/images/logos-map.png" alt="Technologies logos map" />
             </div>
             <div id="link-buttons">
                 <a href="/about" className="link-button">More about me</a>
