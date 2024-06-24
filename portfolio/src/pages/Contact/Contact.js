@@ -25,17 +25,19 @@ const Contact = () => {
                 </a>
             </div>
 
-            <h2>&lt; Contact form &gt;</h2>
-            <form>
-                <label>Name:</label>
-                <input type="text" />
-                <label>Email:</label>
-                <input type="email" />
-                <label>Message:</label>
-                <textarea rows="10" />
+            <div className="hidden">
+                <h2>&lt; Contact form &gt;</h2>
+                <form>
+                    <label>Name:</label>
+                    <input type="text" />
+                    <label>Email:</label>
+                    <input type="email" />
+                    <label>Message:</label>
+                    <textarea rows="10" />
 
-                <input type="submit" value="Send" />
-            </form>
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
         </div>
     );
 };
