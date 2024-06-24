@@ -9,7 +9,7 @@ const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, onC
                 <span className="technologies">{technologies}</span>
             </div>
             <a href={repoLink} target="_blank" rel="noreferrer">
-                <img src="/images/github.png" alt="GitHub icon" />
+                <img src={`${process.env.PUBLIC_URL}/images/github.png`} alt="GitHub icon" />
             </a>
         </button>
     );
