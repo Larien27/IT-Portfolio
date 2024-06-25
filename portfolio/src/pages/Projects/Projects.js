@@ -17,16 +17,22 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div id="project-layout">
                 <div id="project-list" className="project-column">
-                {projectsData.map((project, index) => (
-                    <ProjectBox
-                        key={index}
-                        projectName={project.projectName}
-                        shortDescription={project.shortDescription}
-                        technologies={project.technologies}
-                        repoLink={project.repoLink}
-                        onClick={() => handleClick(project)}
-                    />
-                ))}
+                    {["All", "IT", "3D", "Video production"].map(category => (
+                        <button>
+                            {category}
+                        </button>
+                    ))}
+
+                    {projectsData.map((project, index) => (
+                        <ProjectBox
+                            key={index}
+                            projectName={project.projectName}
+                            shortDescription={project.shortDescription}
+                            technologies={project.technologies}
+                            repoLink={project.repoLink}
+                            onClick={() => handleClick(project)}
+                        />
+                    ))}
                 </div>
 
                 <div id="project-detail" className="project-column">
