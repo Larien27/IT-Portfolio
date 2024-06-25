@@ -1,7 +1,7 @@
 [
     {
         "projectName": "IT Portfolio",
-        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate accumsan sodales.",
+        "shortDescription": "My IT portfolio.",
         "technologies": "HTML, CSS, React, JSON",
         "repoLink": "#",
         "imageFileName": "",
@@ -9,12 +9,111 @@
         "longDescription": ""
     },
     {
+        "projectName": "Web App Community Chest",
+        "shortDescription": "A web application for a non-profit project called Community Chest.",
+        "technologies": "HTML, CSS, JS, Node.js, Express, SQLite3, EJS",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2024",
+        "longDescription": ""
+    },
+    {
+        "projectName": "Headphones – 3D model",
+        "shortDescription": "Lorem ipsum dolor sit ametles.",
+        "technologies": "Maya",
+        "repoLink": "#",
+        "imageFileName": "headphones.png",
+        "year": "2024",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Lamp – 3D model",
+        "shortDescription": "Lorem ipsum dostibulum vulputate accumsan sodales.",
+        "technologies": "Maya",
+        "repoLink": "#",
+        "imageFileName": "lamp.png",
+        "year": "2023",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Escape Hogwarts – VR game",
+        "shortDescription": "Lorem ipsum dolor sit amet, conte accumsan sodales.",
+        "technologies": "Unreal Engine",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2023",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Movie Theatre Web App – Frontend",
+        "shortDescription": "A web application for a non-profit project called Community Chest",
+        "technologies": "tbd",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2023",
+        "longDescription": ""
+    },
+    {
+        "projectName": "Car – 3D model",
+        "shortDescription": "A 3D model of Ford Focus Hatchback 2004.",
+        "technologies": "Blender",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2022",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Game Testing",
+        "shortDescription": "Testing of the Carcassonne game.",
+        "technologies": "tbd",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2022",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Carcassonne Game?",
+        "shortDescription": "Lorem ipsum dolor sit ame con.",
+        "technologies": "Java",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2022",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Music Festival Database",
+        "shortDescription": "Lorem fum dolor sipiscing elit.",
+        "technologies": "PostgreSQL",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2022",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
         "projectName": "Book Database",
-        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "shortDescription": "A web application similar to existing book databases.",
         "technologies": "HTML, CSS, SCSS, PHP, MySQL, JavaScript",
         "repoLink": "https://gitfront.io/r/Larien27/edA6k29ceV4g/Book-Database/",
         "imageFileName": "book-database.png",
         "year": "2021",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "After Effects Showdown?",
+        "shortDescription": "Lorem fum dolor sipiscing elit.",
+        "technologies": "After Effects",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2021",
+        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+    },
+    {
+        "projectName": "Short Film Production",
+        "shortDescription": "Complete creation of a short movie.",
+        "technologies": "Premiere Pro, After Effects",
+        "repoLink": "#",
+        "imageFileName": "",
+        "year": "2020",
         "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     }
 ]
