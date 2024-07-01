@@ -44,7 +44,9 @@ const Projects = () => {
                             <h2>{projectDetail.projectName} ({projectDetail.year})</h2>
                             <p>{projectDetail.shortDescription}</p>
                             <p>Used technologies: {projectDetail.technologies}</p>
-                            <img src={`${process.env.PUBLIC_URL}/images/projects/${projectDetail.imageFileName}`} alt={`${projectDetail.projectName} overview`} />
+                            {projectDetail.imageFileName && (
+                                <img src={`${process.env.PUBLIC_URL}/images/projects/${projectDetail.imageFileName}`} alt={`${projectDetail.projectName} overview`} />
+                            )}
                             <p className="long-description-text">{projectDetail.longDescription}</p>
                         </div>
                     ) : "Choose a project to see details"}
