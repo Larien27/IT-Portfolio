@@ -28,7 +28,8 @@
 }
 
 .project-box img {
-    width: 45px;
+    width: 40px;
+    padding: 5px;
 }
 
 .project-box img:hover {

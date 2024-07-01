@@ -1,6 +1,6 @@
 import './ProjectBox.css';
 
-const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, onClick }) => {
+const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, source, onClick }) => {
     return (
         <button className="project-box" onClick={onClick}>
             <div>
@@ -8,9 +8,11 @@ const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, onC
                 <p>{shortDescription}</p>
                 <span className="technologies">{technologies}</span>
             </div>
+            {repoLink && (
             <a href={repoLink} target="_blank" rel="noreferrer">
-                <img src={`${process.env.PUBLIC_URL}/images/github.png`} alt="GitHub icon" />
+                <img src={`${process.env.PUBLIC_URL}/images/${source}.png`} alt="GitHub icon" />
             </a>
+            )}
         </button>
     );
 };

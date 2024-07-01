@@ -30,6 +30,7 @@ const Projects = () => {
                             shortDescription={project.shortDescription}
                             technologies={project.technologies}
                             repoLink={project.repoLink}
+                            source={project.source}
                             onClick={() => handleClick(project)}
                         />
                     ))}
