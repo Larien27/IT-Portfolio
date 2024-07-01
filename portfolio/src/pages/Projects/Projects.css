@@ -26,6 +26,11 @@
     row-gap: 10px;
 }
 
+/* TODO */
+#projects-category-filter {
+    display: none;
+}
+
 #project-detail {
     text-align: left;
     padding: 35px 40px;

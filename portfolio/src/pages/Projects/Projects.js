@@ -17,11 +17,13 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div id="project-layout">
                 <div id="project-list" className="project-column">
-                    {["All", "IT", "3D", "Video production"].map(category => (
-                        <button>
-                            {category}
-                        </button>
-                    ))}
+                    <div id="projects-category-filter">
+                        {["All", "IT", "3D", "Video production"].map(category => (
+                            <button>
+                                {category}
+                            </button>
+                        ))}
+                    </div>
 
                     {projectsData.map((project, index) => (
                         <ProjectBox
