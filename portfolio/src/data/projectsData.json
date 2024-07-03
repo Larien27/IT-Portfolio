@@ -1,7 +1,7 @@
 [
     {
         "projectName": "IT Portfolio",
-        "shortDescription": "My IT portfolio.",
+        "shortDescription": "This IT portfolio.",
         "technologies": "HTML, CSS, React, JSON",
         "repoLink": "https://github.com/Larien27/IT-Portfolio",
         "source": "github",
@@ -11,7 +11,7 @@
     },
     {
         "projectName": "Web App Community Chest",
-        "shortDescription": "A web application for a non-profit project called Community Chest.",
+        "shortDescription": "Web application for a non-profit project called Community Chest.",
         "technologies": "HTML, CSS, JS, Node.js, Express, SQLite3, EJS",
         "repoLink": "https://github.com/Larien27/Community-Chest-Web-App-KSU.git",
         "source": "github",
@@ -20,16 +20,18 @@
         "longDescription": ""
     },
     {
-        "projectName": "Headphones – 3D model",
-        "shortDescription": "Lorem ipsum dolor sit ametles.",
+        "projectName": "Headphones Commercial",
+        "shortDescription": "Headphones 3D model and animation.",
         "technologies": "Maya",
+        "repoLink": "https://youtu.be/F-IKr8vfZf4",
+        "source": "youtube",
         "imageFileName": "headphones.png",
         "year": "2024",
         "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     },
     {
-        "projectName": "Lamp – 3D model",
-        "shortDescription": "Lorem ipsum dostibulum vulputate accumsan sodales.",
+        "projectName": "3D lamp model",
+        "shortDescription": "3D scene of a lamp on the street.",
         "technologies": "Maya",
         "imageFileName": "lamp.png",
         "year": "2023",
@@ -37,7 +39,7 @@
     },
     {
         "projectName": "Escape Hogwarts – VR game",
-        "shortDescription": "Lorem ipsum dolor sit amet, conte accumsan sodales.",
+        "shortDescription": "VR escape game in Harry Potter style.",
         "technologies": "Unreal Engine",
         "repoLink": "https://youtu.be/iFIOGCfrUFo",
         "source": "youtube",
@@ -47,8 +49,8 @@
     },
     {
         "projectName": "Movie Theatre Web App – Frontend",
-        "shortDescription": "A web application for a non-profit project called Community Chest",
-        "technologies": "tbd",
+        "shortDescription": "Web application for a movie theatre.",
+        "technologies": "HTML, CSS, React",
         "repoLink": "",
         "source": "",
         "imageFileName": "",
@@ -57,29 +59,9 @@
     },
     {
         "projectName": "Car – 3D model",
-        "shortDescription": "A 3D model of Ford Focus Hatchback 2004.",
+        "shortDescription": "3D model of Ford Focus Hatchback 2004.",
         "technologies": "Blender",
         "imageFileName": "car-model.png",
-        "year": "2022",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
-    },
-    {
-        "projectName": "Game Testing",
-        "shortDescription": "Testing of the Carcassonne game.",
-        "technologies": "tbd",
-        "repoLink": "",
-        "source": "",
-        "imageFileName": "",
-        "year": "2022",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
-    },
-    {
-        "projectName": "Carcassonne Game?",
-        "shortDescription": "Lorem ipsum dolor sit ame con.",
-        "technologies": "Java",
-        "repoLink": "",
-        "source": "",
-        "imageFileName": "",
         "year": "2022",
         "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     },
@@ -104,20 +86,12 @@
         "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     },
     {
-        "projectName": "After Effects Showdown?",
-        "shortDescription": "Lorem fum dolor sipiscing elit.",
-        "technologies": "After Effects",
-        "imageFileName": "",
-        "year": "2021",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
-    },
-    {
         "projectName": "2030: Short Film Production",
-        "shortDescription": "Complete creation of a short movie.",
+        "shortDescription": "Complete creation of a short film.",
         "technologies": "Premiere Pro, After Effects",
         "repoLink": "https://youtu.be/69oduct4yrg",
         "source": "youtube",
-        "imageFileName": "",
+        "imageFileName": "2030-short-film.png",
         "year": "2020",
         "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
     }
