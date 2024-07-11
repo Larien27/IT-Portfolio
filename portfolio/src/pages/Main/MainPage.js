@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './MainPage.css';
 
 const MainPage = () => {
@@ -11,9 +12,9 @@ const MainPage = () => {
                 <img src={`${process.env.PUBLIC_URL}/images/logos-map.png`} alt="Technologies logos map" />
             </div>
             <div id="link-buttons">
-                <a href={`${process.env.PUBLIC_URL}/about`} className="link-button">More about me!</a>
-                <a href="/projects" className="link-button">Something about my projects</a>
-                <a href="/contact" className="link-button">How to contact me</a>
+                <Link to="/about" className="link-button">More about me!</Link>
+                <Link to="/projects" className="link-button">Something about my projects</Link>
+                <Link to="/contact" className="link-button">How to contact me</Link>
             </div>
         </div>
     );
