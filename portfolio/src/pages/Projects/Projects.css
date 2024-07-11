@@ -39,6 +39,32 @@
 #project-detail h2 {
     text-transform: initial;
     padding-top: 0;
+    display: inline;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+#project-detail .title-repo-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#project-detail a img {
+    width: 40px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+#project-detail a img:hover {
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+#project-detail .technologies-desc {
+    font-style: italic;
 }
 
 #project-detail img {

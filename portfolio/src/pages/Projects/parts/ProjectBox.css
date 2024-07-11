@@ -35,4 +35,5 @@
 .project-box img:hover {
     background-color: black;
     border-radius: 25px;
+    transition: 0.5s;
 }

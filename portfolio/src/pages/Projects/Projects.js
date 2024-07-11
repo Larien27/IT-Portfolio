@@ -41,9 +41,16 @@ const Projects = () => {
                 <div id="project-detail" className="project-column">
                     {projectDetail ? (
                         <div>
-                            <h2>{projectDetail.projectName} ({projectDetail.year})</h2>
+                            <div className="title-repo-header">
+                                <h2>{projectDetail.projectName} ({projectDetail.year})</h2>
+                                {projectDetail.repoLink && (
+                                <a href={projectDetail.repoLink} target="_blank" rel="noreferrer">
+                                    <img src={`${process.env.PUBLIC_URL}/images/${projectDetail.source}.png`} alt="Link Icon" />
+                                </a>
+                                )}
+                            </div>
                             <p>{projectDetail.shortDescription}</p>
-                            <p>Used technologies: {projectDetail.technologies}</p>
+                            <p className="technologies-desc">Used technologies: {projectDetail.technologies}</p>
                             {projectDetail.imageFileName && (
                                 <img src={`${process.env.PUBLIC_URL}/images/projects/${projectDetail.imageFileName}`} alt={`${projectDetail.projectName} overview`} />
                             )}

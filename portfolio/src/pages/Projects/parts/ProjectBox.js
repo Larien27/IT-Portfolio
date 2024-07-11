@@ -10,7 +10,7 @@ const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, sou
             </div>
             {repoLink && (
             <a href={repoLink} target="_blank" rel="noreferrer">
-                <img src={`${process.env.PUBLIC_URL}/images/${source}.png`} alt="GitHub icon" />
+                <img src={`${process.env.PUBLIC_URL}/images/${source}.png`} alt="Link Icon" />
             </a>
             )}
         </button>
