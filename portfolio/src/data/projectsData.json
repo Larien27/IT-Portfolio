@@ -27,7 +27,7 @@
         "source": "youtube",
         "imageFileName": "headphones.png",
         "year": "2024",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "3D lamp model",
@@ -35,7 +35,7 @@
         "technologies": "Maya",
         "imageFileName": "lamp.png",
         "year": "2023",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "Escape Hogwarts – VR game",
@@ -45,15 +45,15 @@
         "source": "youtube",
         "imageFileName": "vr-escape-hogwarts.png",
         "year": "2023",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "Movie Theatre Web App – Frontend",
         "shortDescription": "Web application for a movie theatre.",
         "technologies": "HTML, CSS, React",
-        "repoLink": "",
-        "source": "",
-        "imageFileName": "",
+        "repoLink": "https://github.com/Larien27/NSS-movie-theatre.git",
+        "source": "github",
+        "imageFileName": "movie-theatre.png",
         "year": "2023",
         "longDescription": ""
     },
@@ -63,17 +63,17 @@
         "technologies": "Blender",
         "imageFileName": "car-model.png",
         "year": "2022",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "Database: Music Festival",
-        "shortDescription": "Lorem fum dolor sipiscing elit.",
+        "shortDescription": "5 homework assignments for a database project.",
         "technologies": "PostgreSQL",
-        "repoLink": "",
-        "source": "",
+        "repoLink": "https://github.com/Larien27/DBS-project.git",
+        "source": "github",
         "imageFileName": "database-music-festival.png",
         "year": "2022",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orcin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit nd nulla augue. In nunc metus, aliquet eget porta sit amet, constique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam etpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turnim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla fa ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "Book Database",
@@ -83,7 +83,7 @@
         "source": "github",
         "imageFileName": "book-database.png",
         "year": "2021",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     },
     {
         "projectName": "2030: Short Film Production",
@@ -93,6 +93,6 @@
         "source": "youtube",
         "imageFileName": "2030-short-film.png",
         "year": "2020",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna orci, volutpat bibendum sollicitudin ac, placerat sed ipsum. Nam bibendum id nisl quis viverra. Donec justo justo, mollis vitae vulputate ut, convallis non sem. In a fermentum nibh. Donec laoreet feugiat dapibus. Mauris eu pulvinar nibh. Aliquam odio lectus, mollis ut consectetur non, placerat nec nibh. Integer urna elit, blandit non dolor non, dapibus imperdiet orci. Nullam id nulla augue. In nunc metus, aliquet eget porta sit amet, consequat efficitur purus. Sed tristique vestibulum libero, eu ultrices augue consequat nec. Nullam vel fringilla lorem. Mauris sollicitudin tempor lacinia. Etiam eleifend lacinia sem.Etiam volutpat tellus ac dolor vestibulum molestie. Nullam a ante nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse enim odio, dapibus eget nunc sit amet, dictum pharetra lectus. Aliquam nec porttitor mauris, nec rhoncus urna. Suspendisse potenti. Nulla facilisi. Mauris iaculis urna ut maximus tempor. Nulla facilisi. Duis suscipit sapien vel varius bibendum. Vestibulum vestibulum auctor neque, a elementum neque tempor id. Curabitur posuere porttitor placerat. Fusce venenatis justo a ligula pretium lacinia. Integer rhoncus dapibus posuere. Ut ut vehicula orci."
+        "longDescription": ""
     }
 ]
