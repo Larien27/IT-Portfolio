@@ -15,11 +15,24 @@
     gap: 20px;
 }
 
+@media (max-width: 520px) {
+    #navbar ul li.desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 521px) {
+    #navbar ul li.mobile {
+        display: none;
+    }
+}
+
 #navbar span a {
     font-weight: bold;
     font-size: large;
     padding: 10px;
     border: 1px solid white;
+    width: min-content;
 }
 
 #navbar ul li a, #navbar span a {
@@ -33,6 +46,14 @@
     color: gray;
 }
 
+#navbar ul li a img:hover {
+    opacity: 40%;
+}
+
 #navbar span a:hover {
     border-color: gray;
+}
+
+#navbar ul li .icon {
+    height: 35px;
 }
