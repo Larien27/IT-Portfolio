@@ -47,7 +47,7 @@
 #project-detail .title-repo-header {
     display: flex;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
 }
 
 #project-detail a img {
