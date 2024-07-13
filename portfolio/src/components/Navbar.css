@@ -32,7 +32,13 @@
     font-size: large;
     padding: 10px;
     border: 1px solid white;
-    width: min-content;
+    width: fit-content;
+}
+
+@media (max-width: 420px) {
+    #navbar span a {
+        width: min-content;
+    }
 }
 
 #navbar ul li a, #navbar span a {
