@@ -7,9 +7,11 @@
 
 @media (max-width: 1140px) {
     #project-layout {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         row-gap: 30px;
-        align-self: center;
+        align-items: center;
+        margin: auto;
     }
 }
 
