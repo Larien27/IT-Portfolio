@@ -50,7 +50,7 @@
     {
         "projectName": "Movie Theatre Web App – Frontend",
         "shortDescription": "Web application for a movie theatre.",
-        "technologies": "HTML, CSS, React",
+        "technologies": "HTML, CSS, React, JSON",
         "repoLink": "https://github.com/Larien27/NSS-movie-theatre.git",
         "source": "github",
         "imageFileName": "movie-theatre.png",
