@@ -32,10 +32,13 @@
             "technology": "Node.js",
             "logoFileName": "nodejs.png"
         },
-
         {
             "technology": "PostgreSQL",
             "logoFileName": "postgresql.png"
+        },
+        {
+            "technology": "MySQL",
+            "logoFileName": "mysql.png"
         },
         {
             "technology": "WordPress",

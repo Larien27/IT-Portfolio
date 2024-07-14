@@ -5,7 +5,7 @@
         "technologies": "HTML, CSS, React, JSON",
         "repoLink": "https://github.com/Larien27/IT-Portfolio",
         "source": "github",
-        "imageFileName": "",
+        "imageFileName": "it-portfolio.png",
         "year": "2024",
         "longDescription": ""
     },
@@ -15,7 +15,7 @@
         "technologies": "HTML, CSS, JS, Node.js, Express, SQLite3, EJS",
         "repoLink": "https://github.com/Larien27/Community-Chest-Web-App-KSU.git",
         "source": "github",
-        "imageFileName": "",
+        "imageFileName": "community-chest.png",
         "year": "2024",
         "longDescription": ""
     },
