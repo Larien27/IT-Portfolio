@@ -67,10 +67,6 @@
         {
             "technology": "C#",
             "logoFileName": "csharp.png"
-        },
-        {
-            "technology": "TailWindCSS",
-            "logoFileName": "tailwindcss.png"
         }
     ],
     "other": [
