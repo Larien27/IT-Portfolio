@@ -79,6 +79,10 @@
             "logoFileName": "aftereffects.png"
         },
         {
+            "technology": "Photoshop",
+            "logoFileName": "photoshop.png"
+        },
+        {
             "technology": "Maya",
             "logoFileName": "maya.png"
         },
