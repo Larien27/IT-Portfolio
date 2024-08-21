@@ -1,4 +1,4 @@
-import './WorkBox.css';
+import './WorkBox.scss';
 
 const WorkBox = ({ logoFileName, date, position, company, description }) => {
     return (

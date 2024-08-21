@@ -1,4 +1,4 @@
-import './ITSkillBox.css';
+import './ITSkillBox.scss';
 
 const ITSkillBox = ({ technology, logoFileName }) => {
     return (

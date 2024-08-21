@@ -1,0 +1,53 @@
+$workbox-breakpoint: 990px;
+
+
+.work-box {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 20px;
+    margin: 0 30px;
+
+    @media (max-width: $workbox-breakpoint) {
+        grid-template-columns: 1fr;
+    }
+
+    .first-column {
+        .work-logo {
+            max-height: 60vh;
+
+            @media (max-width: $workbox-breakpoint) {
+                height: 30vh;
+            }
+        }
+    }
+
+    .second-column {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+
+        @media (max-width: $workbox-breakpoint) {
+            align-items: center;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        .company {
+            font-style: italic;
+        }
+
+        .date {
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: small;
+            font-style: italic;
+        }
+
+        .description {
+            text-align: justify;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Projects.css';
+import './Projects.scss';
 import ProjectBox from './parts/ProjectBox';
 import projectsData from '../../data/projectsData.json';
 

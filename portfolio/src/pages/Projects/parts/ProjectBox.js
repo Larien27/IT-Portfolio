@@ -1,4 +1,4 @@
-import './ProjectBox.css';
+import './ProjectBox.scss';
 
 const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, source, onClick }) => {
     return (

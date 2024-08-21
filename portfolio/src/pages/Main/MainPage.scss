@@ -1,0 +1,74 @@
+$big-phone-breakpoint: 548px;
+$small-phone-breakpoint: 445px;
+
+#main {
+    #text-photo-section {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 30px;
+        align-items: center;
+
+        @media (max-width: $big-phone-breakpoint) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: $small-phone-breakpoint) {
+            grid-template-columns: 1fr;
+        }
+
+        .title {
+            padding: 0 30px 40px 0;
+            border-right: 1px solid white;
+
+            @media (max-width: $small-phone-breakpoint) {
+                padding-right: 0;
+                border-right: none;
+            }
+
+            h1 {
+                margin-bottom: 0;
+
+                @media (max-width: $big-phone-breakpoint) {
+                    font-size: 2em;
+                }
+            }
+
+            #subtitle {
+                font-style: italic;
+
+                @media (max-width: $big-phone-breakpoint) {
+                    font-size: 1em;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    #link-buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;align-items: center;
+        margin-top: 30px;
+
+        @media (max-width: $small-phone-breakpoint) {
+            grid-template-columns: 1fr;
+            row-gap: 15px;
+        }
+
+        .link-button {
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}

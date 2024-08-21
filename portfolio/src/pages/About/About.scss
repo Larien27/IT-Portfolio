@@ -1,0 +1,57 @@
+.section {
+    padding: 0 50px;
+
+    #education {
+        h2 {
+            margin-bottom: 0;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+
+            @media (max-width: 899px) {
+                grid-template-columns: 1fr;
+            }
+
+            @media (min-width: 900px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    #it-skills {
+        display: inline-flex;
+        flex-direction: column;
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+
+    #work-experience {
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 0;
+        }
+    }
+
+    #languages {
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            @media (max-width: 730px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

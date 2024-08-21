@@ -1,0 +1,84 @@
+#contact {
+    #contact-display {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+
+        @media (max-width: 775px) {
+            grid-template-columns: 1fr;
+            row-gap: 20px;
+            align-self: center;
+        }
+
+        a {
+            padding: 20px;
+            background-color: rgb(33, 33, 33);
+            color: white;
+            text-decoration: none;
+
+            &#email {
+                &:hover {
+                    background-color: #c20a0a;
+                }
+            }
+
+            &#linkedin {
+                &:hover {
+                    background-color: #0a66c2;
+                }
+            }
+
+            &#github {
+                &:hover {
+                    background-color: #238636;
+                }
+            }
+        }
+    }
+
+    form {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+
+        input,
+        textarea {
+            border: 1px solid white;
+            background-color: transparent;
+            margin-bottom: 15px;
+            padding: 5px 8px;
+            color: white;
+
+            &:focus {
+                background-color: white;
+                color: black;
+            }
+        }
+
+        input[type=email],
+        input[type=text] {
+            width: 20vw;
+        }
+
+        textarea {
+            width: 30vw;
+        }
+
+        input[type=submit] {
+            height: 50px;
+            width: 100px;
+
+            &:hover {
+                color: black;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/* TODO */
+.hidden {
+    display: none;
+}

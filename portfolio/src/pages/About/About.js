@@ -1,4 +1,4 @@
-import './About.css';
+import './About.scss';
 import EducationCard from './parts/EducationCard';
 import LanguageBox from './parts/LanguageBox';
 import ITSkillBox from './parts/ITSkillBox';
@@ -46,7 +46,7 @@ const About = () => {
                     ))}
                 </ul>
 
-                <h3>&lt; non-programming skills &gt;</h3>
+                <h2>&lt; non-programming skills &gt;</h2>
                 <ul>
                     {ITSkillBoxesData.other.map((skill, index) => (
                         <ITSkillBox

@@ -1,0 +1,20 @@
+.it-skill-box {
+    div {
+        background-color: rgb(57, 57, 57);
+        width: 200px;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        align-items: center;
+        padding: 5px 10px;
+
+        &:hover {
+            background-color: rgb(40, 40, 40);
+        }
+
+        .logo {
+            height: 100px;
+            margin: 0 auto;
+        }
+    }
+}

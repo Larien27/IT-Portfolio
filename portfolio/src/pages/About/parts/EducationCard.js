@@ -1,4 +1,4 @@
-import './EducationCard.css';
+import './EducationCard.scss';
 
 const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFileName, stateAltText, date, fieldName, specialization, school, description }) => {
     return (

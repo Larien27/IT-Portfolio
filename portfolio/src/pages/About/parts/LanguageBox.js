@@ -1,4 +1,4 @@
-import './LanguageBox.css';
+import './LanguageBox.scss';
 
 const getLevelInfo = (level) => {
     let levelValue;
