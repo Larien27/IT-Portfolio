@@ -12,7 +12,7 @@
     {
         "projectName": "Web App Community Chest",
         "shortDescription": "Web application for a non-profit project called Community Chest.",
-        "technologies": "HTML, CSS, JS, Node.js, Express, SQLite3, EJS",
+        "technologies": "HTML, CSS, JS, Node.js, Express, SQLite3, EJS, REST API",
         "repoLink": "https://github.com/Larien27/Community-Chest-Web-App-KSU.git",
         "source": "github",
         "imageFileName": "community-chest.png",
