@@ -1,6 +1,10 @@
 {
     "programming": [
         {
+            "technology": "Three.js",
+            "logoFileName": "threejs.png"
+        },
+        {
             "technology": "ReactJS",
             "logoFileName": "reactjs.png"
         },
