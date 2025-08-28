@@ -18,9 +18,9 @@ const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFi
     return (
         <li className="education-card">
             <div>
-                <img className="logo" style={{ backgroundColor: schoolColor }} src={`${process.env.PUBLIC_URL}/images/logos/${logoFileName}`} alt={logoAltText} /><br />
+                <img className="logo" style={{ backgroundColor: schoolColor }} src={`/images/logos/${logoFileName}`} alt={logoAltText} /><br />
                 <span className="degree">{degree}</span>
-                <img className="state" src={`${process.env.PUBLIC_URL}/images/states/${stateFileName}`} alt={stateAltText} /><br />
+                <img className="state" src={`/images/states/${stateFileName}`} alt={stateAltText} /><br />
                 <span className="date">{date}</span>
                 <h3>{fieldName}</h3>
                 <p className="school">{school}</p>

@@ -45,14 +45,14 @@ const Projects = () => {
                                 <h2>{projectDetail.projectName} ({projectDetail.year})</h2>
                                 {projectDetail.repoLink && (
                                 <a href={projectDetail.repoLink} target="_blank" rel="noreferrer">
-                                    <img src={`${process.env.PUBLIC_URL}/images/${projectDetail.source}.png`} alt="Link Icon" />
+                                    <img src={`/images/${projectDetail.source}.png`} alt="Link Icon" />
                                 </a>
                                 )}
                             </div>
                             <p>{projectDetail.shortDescription}</p>
                             <p className="technologies-desc">Used technologies: {projectDetail.technologies}</p>
                             {projectDetail.imageFileName && (
-                                <img src={`${process.env.PUBLIC_URL}/images/projects/${projectDetail.imageFileName}`} alt={`${projectDetail.projectName} overview`} />
+                                <img src={`/images/projects/${projectDetail.imageFileName}`} alt={`${projectDetail.projectName} overview`} />
                             )}
                             <p className="long-description-text">{projectDetail.longDescription}</p>
                         </div>

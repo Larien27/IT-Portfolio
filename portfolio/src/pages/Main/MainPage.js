@@ -9,7 +9,7 @@ const MainPage = () => {
                     <h1>Lucie Bekeová</h1>
                     <span id="subtitle">Junior web developer</span>
                 </div>
-                <img src={`${process.env.PUBLIC_URL}/images/logos-map.png`} alt="Technologies logos map" />
+                <img src="/images/logos-map.png" alt="Technologies logos map" />
             </div>
             <div id="link-buttons">
                 <Link to="/about" className="link-button">More about me!</Link>
