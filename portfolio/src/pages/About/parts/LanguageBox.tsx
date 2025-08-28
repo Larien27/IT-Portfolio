@@ -1,8 +1,9 @@
+import React from 'react';
 import './LanguageBox.scss';
 
-const getLevelInfo = (level) => {
-    let levelValue;
-    let levelText;
+const getLevelInfo = (level: string): [number, string] => {
+    let levelValue: number;
+    let levelText: string;
 
     switch (level) {
         case 'A1':
@@ -37,7 +38,14 @@ const getLevelInfo = (level) => {
     return [levelValue, levelText];
 }
 
-const LanguageBox = ({ language, flagFileName, flagAltText, level }) => {
+interface LanguageBoxProps {
+    language: string;
+    flagFileName: string;
+    flagAltText: string;
+    level: string;
+}
+
+const LanguageBox = ({ language, flagFileName, flagAltText, level }: LanguageBoxProps) => {
     const levelValue = getLevelInfo(level)[0];
     const levelText = getLevelInfo(level)[1];
     

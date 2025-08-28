@@ -1,6 +1,15 @@
+import React from 'react';
 import './WorkBox.scss';
 
-const WorkBox = ({ logoFileName, date, position, company, description }) => {
+interface WorkBoxProps {
+    logoFileName: string;
+    date: string;
+    position: string;
+    company: string;
+    description: string;
+}
+
+const WorkBox = ({ logoFileName, date, position, company, description }: WorkBoxProps) => {
     return (
         <li className="work-box">
             <div className="first-column">

@@ -1,6 +1,21 @@
+import React from 'react';
 import './EducationCard.scss';
 
-const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFileName, stateAltText, date, fieldName, specialization, school, description }) => {
+interface EducationCardProps {
+    schoolColor: string;
+    logoFileName: string;
+    logoAltText: string;
+    degree: string;
+    stateFileName: string;
+    stateAltText: string;
+    date: string;
+    fieldName: string;
+    specialization: string;
+    school: string;
+    description: string;
+}
+
+const EducationCard = ({ schoolColor, logoFileName, logoAltText, degree, stateFileName, stateAltText, date, fieldName, specialization, school, description }: EducationCardProps) => {
     return (
         <li className="education-card">
             <div>

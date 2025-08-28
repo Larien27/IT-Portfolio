@@ -11,6 +11,19 @@ $workbox-breakpoint: 990px;
         grid-template-columns: 1fr;
     }
 
+    &:nth-of-type(odd) {
+        .first-column {
+            order: 2;
+        }
+        .second-column {
+            order: 1;
+        }
+
+        @media (min-width: ($workbox-breakpoint + 1)) {
+            grid-template-columns: 3fr 2fr;
+        }
+    }
+
     .first-column {
         .work-logo {
             max-height: 60vh;

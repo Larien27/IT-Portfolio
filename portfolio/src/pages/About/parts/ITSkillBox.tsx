@@ -1,6 +1,12 @@
+import React from 'react';
 import './ITSkillBox.scss';
 
-const ITSkillBox = ({ technology, logoFileName }) => {
+interface ITSkillBoxProps {
+    technology: string;
+    logoFileName: string;
+}
+
+const ITSkillBox = ({ technology, logoFileName }: ITSkillBoxProps) => {
     return (
         <li className="it-skill-box">
             <div>
