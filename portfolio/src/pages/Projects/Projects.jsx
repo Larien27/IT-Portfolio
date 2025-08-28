@@ -19,7 +19,7 @@ const Projects = () => {
                 <div id="project-list" className="project-column">
                     <div id="projects-category-filter">
                         {["All", "IT", "3D", "Video production"].map(category => (
-                            <button>
+                            <button key={category}>
                                 {category}
                             </button>
                         ))}
