@@ -1,5 +1,17 @@
 [
     {
+        "schoolColor": "#ffffff",
+        "logoFileName": "uk.jpg",
+        "logoAltText": "Charles University logo",
+        "degree": "Mgr.",
+        "stateFileName": "cr.png",
+        "stateAltText": "Czech Republic map",
+        "date": "September 2025 – Now",
+        "fieldName": "Visual Computing and Game Development",
+        "school": "Faculty of Mathematics and Physics, Charles University",
+        "description": ""
+    },
+    {
         "schoolColor": "#0072BB",
         "logoFileName": "cvut.png",
         "logoAltText": "CTU logo",
