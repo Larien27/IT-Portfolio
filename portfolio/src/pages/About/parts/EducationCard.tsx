@@ -1,4 +1,3 @@
-import React from 'react';
 import './EducationCard.scss';
 
 interface EducationCardProps {

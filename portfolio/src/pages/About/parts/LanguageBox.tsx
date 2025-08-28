@@ -1,4 +1,3 @@
-import React from 'react';
 import './LanguageBox.scss';
 
 const getLevelInfo = (level: string): [number, string] => {
