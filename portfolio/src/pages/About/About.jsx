@@ -46,7 +46,7 @@ const About = () => {
                     ))}
                 </ul>
 
-                <h2>&lt; non-programming skills &gt;</h2>
+                <h2>&lt; Other skills &gt;</h2>
                 <ul>
                     {ITSkillBoxesData.other.map((skill, index) => (
                         <ITSkillBox
@@ -58,7 +58,7 @@ const About = () => {
                 </ul>
             </div>
             <div id="work-experience">
-                <h2>&lt; Work Experience &gt;</h2>
+                <h2>&lt; Experience &gt;</h2>
                 <ul>
                     {workExperienceData.map((work, index) => (
                         <WorkBox
