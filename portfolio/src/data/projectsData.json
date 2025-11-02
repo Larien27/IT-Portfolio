@@ -5,9 +5,9 @@
         "technologies": "React, Three.js (React Three Fiber), SCSS, Node.js, Express, PostgreSQL, Firebase Cloud Storage, Playwright",
         "repoLink": "https://github.com/Larien27/Web-3D-Museum",
         "source": "github",
-        "imageFileName": "",
+        "imageFileName": "web-3d-museum.png",
         "year": "2025",
-        "longDescription": ""
+        "longDescription": "The goal of my bachelor’s thesis was to develop a platform that enabled users to view and create 3D museum exhibitions. The project began with a thorough exploration of existing solutions to understand the current situation and identify gaps. After this, suitable technologies were evaluated and selected to meet the platform’s requirements. Functional requirements were then defined to summarize the application’s intended features. The design phase outlined the system’s architecture, user interface, and optimization. This was followed by the implementation of the proposed solution. Lastly, testing was performed to verify the functionality and usability of the final project."
     },
     {
         "projectName": "IT Portfolio",
