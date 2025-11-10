@@ -1,6 +1,15 @@
 import './ProjectBox.scss';
 
-const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, source, onClick }) => {
+interface ProjectBoxProps {
+    projectName: string;
+    shortDescription: string;
+    technologies: string;
+    repoLink?: string;
+    source?: string;
+    onClick?: () => void;
+}
+
+const ProjectBox = ({ projectName, shortDescription, technologies, repoLink, source, onClick }: ProjectBoxProps) => {
     return (
         <button className="project-box" onClick={onClick}>
             <div>

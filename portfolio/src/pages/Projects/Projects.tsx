@@ -1,12 +1,25 @@
 import { useState } from 'react';
 import './Projects.scss';
 import ProjectBox from './parts/ProjectBox';
-import projectsData from '../../data/projectsData.json';
+import projectsDataJson from '../../data/projectsData.json';
+
+interface Project {
+    projectName: string;
+    shortDescription: string;
+    longDescription?: string;
+    technologies: string;
+    repoLink?: string;
+    source?: string;
+    imageFileName?: string;
+    year?: string;
+}
+
+const projectsData: Project[] = projectsDataJson;
 
 const Projects = () => {
-    const [projectDetail, setProjectDetail] = useState(null);
+    const [projectDetail, setProjectDetail] = useState<Project | null>(null);
 
-    const handleClick = (obj) => {
+    const handleClick = (obj: Project): void => {
         setProjectDetail(obj);
         const projDetailDiv = document.getElementById("project-detail");
         if (projDetailDiv) projDetailDiv.scrollIntoView({ behavior: 'smooth' });
@@ -25,7 +38,7 @@ const Projects = () => {
                         ))}
                     </div>
 
-                    {projectsData.map((project, index) => (
+                    {projectsData.map((project: Project, index: number) => (
                         <ProjectBox
                             key={index}
                             projectName={project.projectName}

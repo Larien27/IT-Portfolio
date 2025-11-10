@@ -82,7 +82,6 @@ const About = () => {
                             flagFileName={language.flagFileName}
                             flagAltText={language.flagAltText}
                             level={language.level}
-                            levelText={language.levelText}
                         />
                     ))}
                 </ul>
