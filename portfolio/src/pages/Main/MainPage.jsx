@@ -7,7 +7,7 @@ const MainPage = () => {
             <div id="text-photo-section">
                 <div className="title">
                     <h1>Lucie Bekeová</h1>
-                    <span id="subtitle">Junior web developer</span>
+                    <span id="subtitle">Web developer</span>
                 </div>
                 <img src="/images/logos-map.png" alt="Technologies logos map" />
             </div>
