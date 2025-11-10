@@ -5,8 +5,16 @@
             "logoFileName": "threejs.png"
         },
         {
+            "technology": "Tailwind CSS",
+            "logoFileName": "tailwindcss.png"
+        },
+        {
             "technology": "ReactJS",
             "logoFileName": "reactjs.png"
+        },
+        {
+            "technology": "TypeScript",
+            "logoFileName": "typescript.png"
         },
         {
             "technology": "JavaScript",
