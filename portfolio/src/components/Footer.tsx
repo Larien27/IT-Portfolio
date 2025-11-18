@@ -3,7 +3,7 @@ import './Footer.scss';
 const Footer = () => {
     return (
         <div id="footer">
-            <p>&copy;2025 Lucie Bekeová</p>
+            <p>&copy; 2024-{new Date().getFullYear()} Lucie Bekeová</p>
         </div>
     );
 };

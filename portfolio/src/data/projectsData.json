@@ -2,7 +2,7 @@
     {
         "projectName": "Web 3D Museum",
         "shortDescription": "Fullstack app for creating interactive 3D museums.",
-        "technologies": "React, Three.js (React Three Fiber), SCSS, Node.js, Express, PostgreSQL, Firebase Cloud Storage, Playwright",
+        "technologies": "React, Three.js (React Three Fiber), SASS, Node.js, Express, PostgreSQL, Firebase Cloud Storage, Playwright",
         "repoLink": "https://github.com/Larien27/Web-3D-Museum",
         "source": "github",
         "imageFileName": "web-3d-museum.png",
