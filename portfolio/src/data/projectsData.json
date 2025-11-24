@@ -2,7 +2,7 @@
     {
         "projectName": "Web 3D Museum",
         "shortDescription": "Fullstack app for creating interactive 3D museums.",
-        "technologies": "React, Three.js (React Three Fiber), SASS, Node.js, Express, PostgreSQL, Firebase Cloud Storage, Playwright",
+        "technologies": "React, Three.js (React Three Fiber), SCSS, Node.js, Express, PostgreSQL, Firebase Cloud Storage, Playwright",
         "repoLink": "https://github.com/Larien27/Web-3D-Museum",
         "source": "github",
         "imageFileName": "web-3d-museum.png",
@@ -12,7 +12,7 @@
     {
         "projectName": "IT Portfolio",
         "shortDescription": "This IT portfolio.",
-        "technologies": "HTML, CSS, SASS, React, TypeScript, JSON",
+        "technologies": "HTML, CSS, SCSS, React, TypeScript, JSON",
         "repoLink": "https://github.com/Larien27/IT-Portfolio",
         "source": "github",
         "imageFileName": "it-portfolio.png",
@@ -88,7 +88,7 @@
     {
         "projectName": "Book Database",
         "shortDescription": "A web application similar to existing book databases.",
-        "technologies": "HTML, CSS, SASS, PHP, MySQL, JavaScript",
+        "technologies": "HTML, CSS, SCSS, PHP, MySQL, JavaScript",
         "repoLink": "https://gitfront.io/r/Larien27/edA6k29ceV4g/Book-Database/",
         "source": "github",
         "imageFileName": "book-database.png",
