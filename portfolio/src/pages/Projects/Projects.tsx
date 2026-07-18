@@ -12,9 +12,12 @@ interface Project {
     source?: string;
     imageFileName?: string;
     year?: string;
+  active: boolean;
 }
 
-const projectsData: Project[] = projectsDataJson;
+const projectsData: Project[] = (projectsDataJson as Project[]).filter(
+  (project) => project.active === true,
+);
 
 const Projects = () => {
     const [projectDetail, setProjectDetail] = useState<Project | null>(null);
